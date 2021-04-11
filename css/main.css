@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #5da5a4;
+    background-image: url(../images/bg-header-desktop.svg);
+}
+body{
+    background: #f0fafb;
+    font-family: 'Spartan', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.articles{
+    padding-top: 20px;
+}
+.article{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill{
+    text-align: right;
+}
+.skill a{
+    font-size: 13px;
+    margin-left: 10px;
+    display: inline-block;
+    background: hsl(180, 52%, 96%);
+    padding: 10px;
+    color: #6b9895;
+    margin-bottom: 15px;
+}
+.article .article-info{
+    display: flex;
+    align-items: center;
+}
+.article .article-info .profile-img{
+    padding-right: 20px;
+}
+.article .article-info .profile-img img{
+    width: 70px;
+    height: 70px;
+}
+.article .article-info .profile-title h4{
+    font-size: 15px;
+    color: #6b9895;
+    margin-bottom: 10px;
+}
+.article .article-info .profile-title h2{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.article .article-info .profile-title .meta{
+    font-size: 13px;
+
+}
+.article .article-info .profile-title .meta span{
+    margin-left: 8px;
+    color: hsl(180, 8%, 52%);
+    font-weight: 500;
+}
+@media screen and (max-width:991px) {
+    .article .article-info{
+        margin-bottom: 20px;
+    }
+}
